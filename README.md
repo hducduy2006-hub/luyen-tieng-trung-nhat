@@ -1,5 +1,7 @@
 # 🇨🇳🇯🇵 Lộ Trình Hán – Nhật | Website Luyện Tập Tiếng Trung & Tiếng Nhật
 
+> 🌐 **Truy cập trang web trực tuyến tại đây:** **[https://hducduy2006-hub.github.io/luyen-tieng-trung-nhat/](https://hducduy2006-hub.github.io/luyen-tieng-trung-nhat/)**
+
 Ứng dụng web học và luyện tập **Tiếng Trung (Pinyin & HSK 1 → HSK 6)** và **Tiếng Nhật (Hiragana/Katakana & JLPT N5 → N1)** với lộ trình học theo từng tuần rõ ràng, hệ thống lặp lại ngắt quãng (SRS – Leitner 7 hộp), trắc nghiệm đa dạng, bảng ngữ pháp, Hán tự kèm âm Hán Việt, bảng luyện viết chữ và phát âm giọng bản xứ.
 
 ---
