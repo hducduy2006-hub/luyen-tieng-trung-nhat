@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lộ Trình Hán – Nhật | Luyện tiếng Trung & tiếng Nhật</title>
+  <meta name="description" content="Website luyện tập tiếng Trung (HSK 1–6) và tiếng Nhật (JLPT N5–N1) với lộ trình rõ ràng, flashcard lặp lại ngắt quãng, trắc nghiệm, ngữ pháp, luyện viết và phát âm." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23e11d48'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white'>学</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo">学</div>
+        <div class="brand-name">Lộ Trình Hán–Nhật<small>Học mỗi ngày, tiến bộ mỗi ngày</small></div>
+      </div>
+      <div class="lang-switch" id="langSwitch">
+        <button data-lang="zh">🇨🇳 Tiếng Trung</button>
+        <button data-lang="ja">🇯🇵 Tiếng Nhật</button>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="#/home" data-route="home"><span class="ico">🏠</span>Tổng quan</a>
+        <a href="#/roadmap" data-route="roadmap"><span class="ico">🗺️</span>Lộ trình học</a>
+        <a href="#/pronounce" data-route="pronounce"><span class="ico" id="navPronIco">🔤</span><span id="navPron">Phát âm</span></a>
+        <a href="#/vocab" data-route="vocab"><span class="ico">📚</span>Từ vựng</a>
+        <a href="#/flashcards" data-route="flashcards"><span class="ico">🃏</span>Flashcard (SRS)</a>
+        <a href="#/quiz" data-route="quiz"><span class="ico">🎯</span>Trắc nghiệm</a>
+        <a href="#/grammar" data-route="grammar"><span class="ico">📝</span>Ngữ pháp</a>
+        <a href="#/kanji" data-route="kanji" id="navKanji"><span class="ico">🈶</span>Kanji</a>
+        <a href="#/writing" data-route="writing"><span class="ico">✍️</span>Luyện viết</a>
+        <a href="#/stats" data-route="stats"><span class="ico">📊</span>Thống kê</a>
+      </nav>
+      <div class="sidebar-foot">
+        <button class="btn sm" id="themeBtn" title="Đổi giao diện sáng/tối">🌙 Giao diện</button>
+      </div>
+    </aside>
+    <div class="overlay" id="overlay"></div>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="btn icon menu-btn" id="menuBtn" aria-label="Mở menu">☰</button>
+        <h1 id="pageTitle">Tổng quan</h1>
+        <span class="pill" title="Chuỗi ngày học liên tiếp">🔥 <span id="streakPill">0</span></span>
+        <span class="pill" title="Điểm kinh nghiệm hôm nay / mục tiêu">⭐ <span id="xpPill">0</span></span>
+      </header>
+      <section class="content" id="view"></section>
+    </main>
+  </div>
+  <div class="toast" id="toast"></div>
+
+  <!-- Dữ liệu -->
+  <script src="data/zh1.js"></script>
+  <script src="data/zh2.js"></script>
+  <script src="data/ja1.js"></script>
+  <script src="data/ja2.js"></script>
+  <!-- Ứng dụng -->
+  <script src="js/app.js"></script>
+</body>
+</html>
